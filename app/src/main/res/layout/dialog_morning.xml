@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/alarm_message_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:ems="10"
+        android:hint="@string/hint_message"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/alarm_choose_all_friends_button"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@android:string/selectAll" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/alarm_friends_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+    </android.support.v7.widget.RecyclerView>
+
+    <TextView
+        android:id="@+id/alarm_friends_error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <com.github.rahatarmanahmed.cpv.CircularProgressView
+        android:id="@+id/alarm_friends_cpv"
+        android:layout_width="@dimen/friend_load"
+        android:layout_height="@dimen/friend_load"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+
+</LinearLayout>

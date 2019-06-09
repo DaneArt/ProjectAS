@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="alarm_button">72dp</dimen>
+    <dimen name="friend_load">30dp</dimen>
+</resources>

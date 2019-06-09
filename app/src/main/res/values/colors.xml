@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4caf50</color>
+    <color name="colorPrimaryDark">#087f23</color>
+    <color name="colorAccent">#AB47BC</color>
+    <color name="activeAlarm">@android:color/black</color>
+    <color name="inactiveAlarm">@android:color/darker_gray</color>
+</resources>
